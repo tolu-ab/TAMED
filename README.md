@@ -1,10 +1,12 @@
 # TAMED
 Our AI-powered tool analyzes vast amounts of unstructured data to provide accurate and comprehensive information about a company's ESG performance using the power of Natural language processing techniques to make sense of unstructured data which traditionally requires the need for an human analyst. It provides actionable recommendations for investment decisions, improving the decision-making process for investors, asset managers and risk managers looking to align their investments and portfolio with their values or looking to minimize climate-related risks. The tool's AI-powered recommendation engine will have the power to analyze more data and provide more objective analysis than human analysis. It will feature a user-friendly interface for easy access and interaction with the data and insights. This will make it easy for both novice and experienced investors to use. 
 # HIGH LEVEL PROTOTYPE
+This is a high level mockup made using Figma
 ![image](https://user-images.githubusercontent.com/57208663/212286798-ac592f1e-824a-4590-9cec-e698f23ab1be.png)
-prototype link - https://www.figma.com/proto/kTGwQJo6m7WrzJG3SAWvxL/TAMED?page-id=0%3A1&node-id=2%3A1186&viewport=466%2C1053%2C0.44&scaling=contain&starting-point-node-id=2%3A1186
+![image](https://user-images.githubusercontent.com/57208663/212443699-807ea421-a344-4e24-9a0c-3302d0e01ffc.png)
+To prototype the app, visit this link - https://www.figma.com/proto/kTGwQJo6m7WrzJG3SAWvxL/TAMED?page-id=0%3A1&node-id=2%3A1186&viewport=466%2C1053%2C0.44&scaling=contain&starting-point-node-id=2%3A1186
 # APP INFRASTRUCTURE
-![Group 300](https://user-images.githubusercontent.com/57208663/212309961-4b7a95a5-4a8a-43c2-b398-212322ca80a3.png)
+![Group 300](https://user-images.githubusercontent.com/57208663/212443989-cd860e76-a129-4910-9dcf-168b4fd00945.png)
 - Data Collection and Preparation:
 Collection of unstructured data from various sources such as company reports, news articles, reporting frameworks, legal information and social media.
 The data will be cleaned and preprocessed, removing any irrelevant information and formatting the data in a way that is usable for the NLP model.
@@ -23,9 +25,9 @@ A variety of different algorithms for natural language processing tasks such as 
 
 A variety of APIs might also be needed to access data from different sources, such as company reports, news articles, legal regulations, financial data, and social media.
 
-combination of different ML methods to extract insights from the unstructured data. For example, it could use supervised learning methods, such as decision trees, random forests, or logistic regression, to classify text based on predefined categories. It could also use unsupervised learning methods, such as clustering or dimensionality reduction, to identify patterns and relationships in the data.
+A combination of different ML methods will also be employed to extract insights from the unstructured data. For example, it could use supervised learning methods, such as decision trees, random forests, or logistic regression, to classify text based on predefined categories. It could also use unsupervised learning methods, such as clustering or dimensionality reduction, to identify patterns and relationships in the data.
 
-This is an high level code snippet of how it might work. Real-world implementation might require more complexity and expertise than we currently have access to
+This is an high level code snippet of how it might work. Real-world implementation will require more complexity and expertise than we currently have access to
 
 ```python
 import pandas as pd
@@ -73,3 +75,4 @@ for i in range(data.shape[0]):
     if "renewable energy" in data.iloc[i, 3]:
         score += 1
 ```   
+Authors: Tolu, Mena, Selina and Sahana
